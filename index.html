@@ -16,20 +16,34 @@
             <input type="text" class="form-control" id="name-1" placeholder="Enter name">
           </div>
           <div class="form-group">
-            <label for="favColor">Please select your favorite color.</label>
-            <input type="text" class="form-control" id="favColor-1" placeholder="">
+            <label for="color">Please select your favorite color.</label>
+            <input type="color" class="form-control" id="color">
           </div>
           <div class="form-group">
-            <label for="musicGenera">Please select from the choices of music genera.</label>
-            <input type="text" class="form-control" id="musicGenera-1" placeholder="Select Genera">
+            <label for="musicGenre">Please select from the choices of music genre.</label>
+            <select class="form-control" id="Genres">
+              <option default>Select Genre</option>
+              <option>Metal</option>
+              <option>Hip-Hop</option>
+              <option>Salsa</option>
+              <option>Country</option>
+              <option>Electric</option>
+              <option>Rock</option>
+              <option>Funk</option>
+
+            </select>
           </div>
           <div class="form-group">
-            <label for="birthday">What is your birthday?</label>
-            <input type="text" class="form-control" id="birthday-1" placeholder="birthday">
+            <label for="birthday-1">What is your birthday?</label>
+            <input type="date" class="form-control" id="birthday-1" placeholder="birthday">
           </div>
 
           <button type="submit" class="btn btn-primary" id="enter">Submit Survey</button>
         </form>
+        <br>
+        <div class="alert alert-info" role="alert" id="thankYou">
+          <p> Thank you for completing this survey! </p>
+        </div>
 
 
     </div>
